@@ -39,7 +39,9 @@ def find_a(arr)
   new_str
 end
   
+def sum_array(array)
   
+end 
   
   
   
