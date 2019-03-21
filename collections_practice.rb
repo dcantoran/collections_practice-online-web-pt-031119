@@ -44,7 +44,7 @@ def sum_array(array)
 end 
   
 def add_s(array) 
-  array-[1]
+  array.exclude
   
   array.collect do |word|
     word.insert(-1, "s")
