@@ -45,13 +45,12 @@ end
   
 def add_s(array) 
   
-  
   array.collect do |word|
-    if word == array[2]
-      next 
-    else
-    word.insert(-1, "s")
-  end
+      if word == array[2]
+        next 
+      else
+      word.insert(-1, "s")
+    end
   end 
 end 
   
