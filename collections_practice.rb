@@ -35,6 +35,11 @@ def find_a(arr)
     end
   end 
   new_str
+  
+  arr.select do |word|
+    word[0] == "a"
+    arr 
+  end
 end
   
 def sum_array(array)
