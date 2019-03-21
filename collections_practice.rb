@@ -46,10 +46,9 @@ end
 def add_s(array) 
   array-[1]
   
-  
-  # array.collect do |word|
+  array.collect do |word|
     
-  # end 
+  end 
 end 
   
   
