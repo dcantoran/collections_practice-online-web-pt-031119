@@ -36,7 +36,7 @@ def find_a(arr)
       new_str.push(str)
     end
   end 
-  arr
+  new_str
 end
   
   
