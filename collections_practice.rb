@@ -46,7 +46,7 @@ end
 def add_s(array) 
   
   array.collect do |word|
-    word.append("s")
+    word.append "s"
   end 
 end 
   
