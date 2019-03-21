@@ -28,13 +28,13 @@ def kesha_maker(arr)
 end 
   
 def find_a(arr)
-  new_str = []
-  arr.collect do |str|
-    if str.start_with? "a"
-      new_str.push(str)
-    end
-  end 
-  new_str
+  # new_str = []
+  # arr.collect do |str|
+  #   if str.start_with? "a"
+  #     new_str.push(str)
+  #   end
+  # end 
+  # new_str
   
   arr.select do |word|
     word[0] == "a"
