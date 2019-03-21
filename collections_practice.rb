@@ -22,10 +22,8 @@ def reverse_array(arr)
 end 
 
 def kesha_maker(arr) 
-  dolla_sign = []
   arr.each do |word|
     word[2] = "$"
-    dolla_sign.push(arr)
   end 
 end 
   
