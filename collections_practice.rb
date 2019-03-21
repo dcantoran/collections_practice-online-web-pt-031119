@@ -30,8 +30,11 @@ def kesha_maker(arr)
 end 
   
 def find_a(arr)
+  new_str = []
   arr.collect! do |str|
-    str[0].find "a"
+    if str.start_with? "a"
+      new_str.push(str)
+    end
   end 
   arr
 end
