@@ -31,7 +31,7 @@ end
   
 def find_a(arr)
   arr.collect! do |str|
-    str.start_with? "a"
+    str[0].find "a"
   end 
   arr
 end
