@@ -38,7 +38,7 @@ def find_a(arr)
   
   arr.select do |word|
     word[0] == "a"
-    arr 
+    
   end
 end
   
