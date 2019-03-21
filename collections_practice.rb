@@ -46,6 +46,7 @@ end
 def add_s(array) 
   next if array[1] 
   
+  
   array.collect do |word|
     
   end 
