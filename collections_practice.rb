@@ -44,11 +44,11 @@ def sum_array(array)
 end 
   
 def add_s(array) 
-  
-  array.collect do |word|
-    if word === array[1]
+  if word === array[1]
       next
     end
+  array.collect do |word|
+    
   end 
 end 
   
