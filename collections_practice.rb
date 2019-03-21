@@ -40,12 +40,7 @@ def find_a(arr)
 end
   
 def sum_array(array)
-  result = []
-  array.each do |a, b|
-    a + b 
-    result.push(array)
-  end
-  result
+  array.sum
 end 
   
   
